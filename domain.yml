@@ -2,37 +2,67 @@ version: "3.1"
 
 intents:
   - greet
+  - greet_swa
   - goodbye
+  - goodbye_swa
   - affirm
+  - affirm_swa
   - deny
+  - deny_swa
   - mood_great
+  - mood_great_swa
   - mood_unhappy
+  - mood_unhappy_swa
   - bot_challenge
+  - bot_challenge_swa
   - ask_mpsr
+  - ask_mpsr_swa
   - security_right
+  - security_right_swa
   - movable_asset
+  - movable_asset_swa
   - register
+  - register_swa
 
 
 responses:
   utter_greet:
   - text: "Hey! How are you?"
 
+  utter_greet_swa:
+    - text: "Jambo!"
+
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+  
+  utter_cheer_up_swa:
+  - text: "Hapa kuna jambo la kukutia moyo:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
   - text: "Did that help you?"
 
+  utter_did_that_help_swa:
+  - text: "Je, hiyo ilikusaidia?"
+
   utter_happy:
   - text: "Great, carry on!"
+
+  utter_happy_swa:
+  - text: "Sawa, endelea!"
 
   utter_goodbye:
   - text: "Bye"
 
+  utter_goodbye_swa:
+  - text: "Kwaheri"
+
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_iamabot_swa:
+  - text: "Mimi ni roboti, inayoendeshwa na Rasa."
 
   utter_ask_mpsr:
   - text: |- 

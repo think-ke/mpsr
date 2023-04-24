@@ -9,6 +9,13 @@ stories:
   - intent: mood_great
   - action: utter_happy
 
+- story: happy path_swa
+  steps:
+  - intent: greet_swa
+  - action: utter_greet_swa
+  - intent: mood_great_swa
+  - action: utter_happy_swa
+
 - story: sad path 1
   steps:
   - intent: greet
@@ -19,6 +26,16 @@ stories:
   - intent: affirm
   - action: utter_happy
 
+- story: sad path 1_swa
+  steps:
+  - intent: greet_swa
+  - action: utter_greet_swa
+  - intent: mood_unhappy_swa
+  - action: utter_cheer_up_swa
+  - action: utter_did_that_help_swa
+  - intent: affirm_swa
+  - action: utter_happy_swa
+
 - story: sad path 2
   steps:
   - intent: greet
@@ -28,6 +45,16 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: sad path 2_swa
+  steps:
+  - intent: greet_swa
+  - action: utter_greet_swa
+  - intent: mood_unhappy_swa
+  - action: utter_cheer_up_swa
+  - action: utter_did_that_help_swa
+  - intent: deny_swa
+  - action: utter_goodbye_swa
 
 - story: path 1 
   steps:
@@ -42,6 +69,19 @@ stories:
   - intent: register
   - action: utter_register
 
+- story: path 1_swa
+  steps:
+  - intent: greet_swa
+  - action: utter_greet_swa
+  - intent: ask_mpsr_swa
+  - action: utter_ask_mpsr_swa
+  - intent: security_right_swa
+  - action: utter_security_act_swa
+  - intent: movable_asset_swa
+  - action: utter_movable_asset_swa
+  - intent: register_swa
+  - action: utter_register_swa
+
 - story: path 2
   steps:
   - intent: ask_mpsr
@@ -53,6 +93,17 @@ stories:
   - intent: register
   - action: utter_register
 
+- story: path 2_swa
+  steps:
+  - intent: ask_mpsr_swa
+  - action: utter_ask_mpsr_swa
+  - intent: security_right_swa
+  - action: utter_security_act_swa
+  - intent: movable_asset_swa
+  - action: utter_movable_asset_swa
+  - intent: register_swa
+  - action: utter_register_swa
+
 - story: path 3
   steps:
   - intent: security_right
@@ -62,6 +113,15 @@ stories:
   - intent: register
   - action: utter_register
 
+- story: path 3_swa
+  steps:
+  - intent: security_right_swa
+  - action: utter_security_act_swa
+  - intent: movable_asset_swa
+  - action: utter_movable_asset_swa
+  - intent: register_swa
+  - action: utter_register_swa
+
 - story: path 4
   steps:
   - intent: movable_asset
@@ -69,7 +129,20 @@ stories:
   - intent: register
   - action: utter_register
 
+- story: path 4_swa
+  steps:
+  - intent: movable_asset_swa
+  - action: utter_movable_asset_swa
+  - intent: register_swa
+  - action: utter_register_swa
+
 - story: path 5
   steps:
   - intent: register
   - action: utter_register
+
+- story: path 5_swa
+  steps:
+  - intent: register_swa
+  - action: utter_register_swa
+  
