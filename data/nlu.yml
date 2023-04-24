@@ -162,16 +162,16 @@ nlu:
     - tell me about mpsr
     - what is mpsr all about?
   
-  
 - intent: ask_mpsr_swa
-  examples: 
+  examples: |
     - mpsr ni nini?
     - mpsr ni shirika la serikali?
-    - mpsr ni shirika la serikali ya Kenya?
-    - mpsr ni shirika la serikali ya Kenya linalohusika na usajili wa mali inayohamishika?
-    - mpsr inahusu nini?
+    - mpsr ni shirika la serikali?
+    - haki za mali zinazoweza kuhamishika ni zipi?
     - niambie kuhusu mpsr
-
+    - mpsr ni nini?
+    - mpsr inahusu nini?
+  
 - intent: security_right
   examples: |
     - what is a security act?
@@ -181,7 +181,7 @@ nlu:
     - what is the security act of 2002 all about?
     - security act
 
-intent: security_right_swa
+- intent: security_right_swa
   examples: |
     - sheria ya usalama ni nini?
     - niambie kuhusu sheria ya usalama?

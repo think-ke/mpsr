@@ -66,10 +66,8 @@ responses:
 
   utter_ask_mpsr:
   - text: |- 
-      The Movable Property Security Rights Act (MPSR), 2017 is the most significant statute to impact the use of movable 
-      security in Kenya. It came into force on 16th May, 2017, with the Movable Security Rights (General) Regulations, 
-      coming into force on 2nd June, 2017.
-      
+      The Movable Property Security Rights Act (MPSR), 2017 is the most significant statute to impact the use of movable security in Kenya. 
+      It came into force on 16th May, 2017, with the Movable Security Rights (General) Regulations, coming into force on 2nd June, 2017.
       
       The Act is part of a number of laws that the Government has, and intends 
       to enact as part of Kenya Vision 2030's objective of developing an efficient and globally competitive financial 
@@ -89,8 +87,8 @@ responses:
   utter_ask_mpsr_swa:
   - text: |- 
       Sheria ya Haki za Mali ya Kusafirisha (MPSR), 2017 ni sheria muhimu zaidi kwa ajili ya matumizi ya haki za mali ya 
-      kusafirisha. Sheria hiyo ilizinduliwa rasmi tarehe 16 Mei, 2017, na Sheria ya Haki za Mali ya Kusafirisha (Maelekezo ya 
-      Jumla), ilizinduliwa rasmi tarehe 2 Juni, 2017.
+      kusafirisha. Sheria hiyo ilizinduliwa rasmi tarehe 16 Mei, 2017, na Sheria ya Haki za Mali ya Kusafirisha (Maelekezo ya Jumla),
+      ilizinduliwa rasmi tarehe 2 Juni, 2017.
       
       
       Sheria hiyo ni sehemu ya sheria nyingi ambazo Serikali ime, na inatarajia kuzindua kama sehemu ya lengo la Kenya Vision 
@@ -143,8 +141,8 @@ responses:
 
   utter_register:
   - text: |-
-      The MPSR Registry is hosted on the Government's service single sign-on platform of e-Citizen and is administered 
-      by the BRS.It allows for remote access and registration of security rights.Internet connection is required to access the MPSR Registry.
+      The MPSR Registry is hosted on the Government's service single sign-on platform of e-Citizen and is administered by the BRS.
+      It allows for remote access and registration of security rights.Internet connection is required to access the MPSR Registry.
 
       The MPSR Registry allows for instant and time-stamped registration of security rights.
       It allows for functions such as;

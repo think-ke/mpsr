@@ -15,12 +15,12 @@ rules:
 - rule: Say 'I am a bot' anytime the user challenges
   steps:
   - intent: bot_challenge
-  - action: utter_iamabot
+  - action: utter_bot_challenge
 
 - rule: Say 'I am a bot' anytime the user challenges_swa
   steps:
   - intent: bot_challenge_swa
-  - action: utter_iamabot_swa
+  - action: utter_bot_challenge_swa
 
 - rule: Greeting
   steps: 
