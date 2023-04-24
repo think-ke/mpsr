@@ -89,3 +89,45 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: ask_mpsr
+  examples: |
+    - what is mpsr?
+    - is mpsr a govt. org?
+    - is mpsr a government organisation?
+    - what are movable property rights?
+    - tell me about mpsr
+    - what is mpsr all about?
+    - mpsr
+  
+- intent: security_right
+  examples: |
+    - what is a security act?
+    - tell me about the security act?
+    - what is the security act?
+    - what is the security act of 2002?
+    - what is the security act of 2002 all about?
+    - security act
+
+- intent: movable_asset
+  examples: | 
+    - what movable assets can i use to get a loan?
+    - can i use my electronics as collateral?
+    - what can i use as collateral for a loan?
+    - what are the movable assets?
+    - what are the movable assets that i can use as collateral?
+    - what are the movable assets that i can use to get a loan?
+    - what are the movable assets that i can use as collateral for a loan?
+    - movable assets
+    - movable assets that i can use as collateral
+    - movable assets that i can use to get a loan
+
+- intent: register
+  examples: | 
+    - how do i register my asset?
+    - how do i register in mpsr?
+    - how do i register my movable asset?
+    - how do i register my movable property?
+    - movable property registration
+    - movable property registration process
+    - how do i register my movable property in mpsr?

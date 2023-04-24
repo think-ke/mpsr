@@ -28,3 +28,48 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: path 1 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_mpsr
+  - action: utter_ask_mpsr
+  - intent: security_right
+  - action: utter_security_act
+  - intent: movable_asset
+  - action: utter_movable_asset
+  - intent: register
+  - action: utter_register
+
+- story: path 2
+  steps:
+  - intent: ask_mpsr
+  - action: utter_ask_mpsr
+  - intent: security_right
+  - action: utter_security_act
+  - intent: movable_asset
+  - action: utter_movable_asset
+  - intent: register
+  - action: utter_register
+
+- story: path 3
+  steps:
+  - intent: security_right
+  - action: utter_security_act
+  - intent: movable_asset
+  - action: utter_movable_asset
+  - intent: register
+  - action: utter_register
+
+- story: path 4
+  steps:
+  - intent: movable_asset
+  - action: utter_movable_asset
+  - intent: register
+  - action: utter_register
+
+- story: path 5
+  steps:
+  - intent: register
+  - action: utter_register
