@@ -8,6 +8,11 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - ask_mpsr
+  - security_right
+  - movable_asset
+  - register
+
 
 responses:
   utter_greet:
@@ -28,6 +33,62 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_ask_mpsr:
+  - text: |- 
+      The Movable Property Security Rights Act (MPSR), 2017 is the most significant statute to impact the use of movable 
+      security in Kenya. It came into force on 16th May, 2017, with the Movable Security Rights (General) Regulations, 
+      coming into force on 2nd June, 2017.
+      
+      
+      The Act is part of a number of laws that the Government has, and intends 
+      to enact as part of Kenya Vision 2030's objective of developing an efficient and globally competitive financial 
+      services sector. 
+
+
+      Objectives for the MPSR Act are as follows:
+
+      i.    To provide for the use of movable property as collateral for credit facilities.
+      ii.   To establish the Office of the Registrar of Security Rights to facilitate registration of security rights in movable 
+            assets.
+      iii.  To establish an electronic collateral registry to facilitate the registration of notices relating to security rights 
+            in movable assets.
+      iv.   To promote consistency and certainty in secured financing relating to movable assets.
+      v.    To enhance the ability of individuals and entities to access credit using movable assets
+
+
+  utter_security_act:
+  - text: |- 
+      A security right is a property right in a moveable asset that is created by an agreement to secure payment or 
+      performance of an obligation. 
+
+
+      It is created by a security agreement between the grantor and the secured creditor, provided that the grantor has 
+      rights in the asset to be encumbered or the power to encumber it.
+
+      
+  utter_movable_asset:
+  - text: |-  
+      Movable assets are categorised into two: 
+
+            i.  Tangible assets such as motor vehicles, crops, machinery, livestock, business inventory, electronics and 
+                furniture.
+            ii. Intangible assets such as account receivables, choses in action, account savings or deposits, unpaid invoices, 
+                electronic securities, shares and intellectual property among others.
+
+  utter_register:
+  - text: |-
+      The MPSR Registry is hosted on the Government's service single sign-on platform of e-Citizen and is administered 
+      by the BRS.It allows for remote access and registration of security rights.Internet connection is required to access the MPSR Registry.
+
+
+      The MPSR Registry allows for instant and time-stamped registration of security rights.
+      It allows for functions such as;
+        i.   Searches
+        ii.  Registration of security rights
+        iii. Amendment of security rights
+        iv.  Cancellation of security right
+
 
 session_config:
   session_expiration_time: 60
