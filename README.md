@@ -28,6 +28,11 @@ now, you can
 
 and see how the chatbot does.
 
+## For Chat UI:
+
+Run the command  
+``pip install django``
+
 Note:
 
 Always run project(s) in a virtual environment for easy installation of (needed) packages/dependencies.
