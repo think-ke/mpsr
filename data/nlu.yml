@@ -28,6 +28,17 @@ nlu:
     - habari za jioni
     - uko
 
+- intent: greet_agi
+  examples: |
+    - uhoro wakuu
+    - uhoro wakuu, watida atia
+    - uhoro wakuu, watida atia, watida atia
+    - niatia
+    - niatia, watida atia
+    - uhoro wa ruciini
+    - uhoro wa hwaiini
+    - wikwuo
+    
 - intent: goodbye
   examples: |
     - cu
@@ -49,6 +60,15 @@ nlu:
     - kwaheri
     - kwaheri twonane baadaye
     - twonane baadaye
+
+- intent: goodbye_agi
+  examples: |
+    - ihida riigi
+    - tindia wega
+    - mahida mega
+    - nitukuonana
+    - nitukuonana, tindia wega
+    - tindia wega, nitukuonana
 
 - intent: affirm
   examples: |
@@ -108,6 +128,13 @@ nlu:
     - najiskia fiti
     - nina furaha
 
+- intent: mood_great_agi
+  examples: |
+    - nikwega
+    - dimwega
+    - nikwega muno
+    - dina gikeno
+
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -152,6 +179,14 @@ nlu:
      - ninaongea na roboti?
      - ninaongea na mwanadamu?
      - wewe ni mwanadamu?
+    
+- intent: bot_challenge_agi
+  examples: |
+    - wee wi maciini?
+    - wee wi mundu?
+    - ndiraria na maciini?
+    - ndiraria na mundu?
+    - wee wi mundu?
 
 - intent: ask_mpsr
   examples: |

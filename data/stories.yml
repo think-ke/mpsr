@@ -16,6 +16,13 @@ stories:
   - intent: mood_great_swa
   - action: utter_happy_swa
 
+- story: happy path_agi
+  steps:
+  - intent: greet_agi
+  - action: utter_greet_agi
+  - intent: mood_great_agi
+  - action: utter_happy_agi
+
 - story: sad path 1
   steps:
   - intent: greet

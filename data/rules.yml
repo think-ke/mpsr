@@ -12,6 +12,11 @@ rules:
   - intent: goodbye_swa
   - action: utter_goodbye_swa
 
+- rule: Say goodbye anytime the user says goodbye_agi
+  steps:
+  - intent: goodbye_agi
+  - action: utter_goodbye_agi
+
 - rule: Say 'I am a bot' anytime the user challenges
   steps:
   - intent: bot_challenge
@@ -22,6 +27,11 @@ rules:
   - intent: bot_challenge_swa
   - action: utter_bot_challenge_swa
 
+- rule: Say 'I am a bot' anytime the user challenges_agi
+  steps:
+  - intent: bot_challenge_agi
+  - action: utter_bot_challenge_agi
+
 - rule: Greeting
   steps: 
   - intent: greet
@@ -31,3 +41,8 @@ rules:
   steps: 
   - intent: greet_swa
   - action: utter_greet_swa
+
+- rule: Greeting_agi
+  steps: 
+  - intent: greet_agi
+  - action: utter_greet_agi

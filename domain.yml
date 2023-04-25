@@ -3,18 +3,22 @@ version: "3.1"
 intents:
   - greet
   - greet_swa
+  - greet_agi
   - goodbye
   - goodbye_swa
+  - goodbye_agi
   - affirm
   - affirm_swa
   - deny
   - deny_swa
   - mood_great
   - mood_great_swa
+  - mood_great_agi
   - mood_unhappy
   - mood_unhappy_swa
   - bot_challenge
   - bot_challenge_swa
+  - bot_challenge_agi
   - ask_mpsr
   - ask_mpsr_swa
   - security_right
@@ -31,6 +35,9 @@ responses:
 
   utter_greet_swa:
     - text: "Jambo!"
+  
+  utter_greet_agi:
+    - text: "Uhoro wakuu?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -52,17 +59,26 @@ responses:
   utter_happy_swa:
   - text: "Sawa, endelea!"
 
+  utter_happy_agi:
+  - text: "Ni mwega, enda!"
+
   utter_goodbye:
   - text: "Bye"
 
   utter_goodbye_swa:
   - text: "Kwaheri"
 
+  utter_goodbye_agi:
+  - text: "Nitukuonana"
+
   utter_bot_challenge:
   - text: "I am a bot, powered by Rasa."
 
   utter_bot_challenge_swa:
   - text: "Mimi ni roboti, inayoendeshwa na Rasa."
+
+  utter_bot_challenge_agi:
+  - text: "Nii ndi maciini, iratwarithio ni Rasa."
 
   utter_ask_mpsr:
   - text: |- 
@@ -171,16 +187,21 @@ session_config:
 actions:
 - utter_greet
 - utter_greet_swa
+- utter_greet_agi
 - utter_goodbye
 - utter_goodbye_swa
+- utter_goodbye_agi
 - utter_affirm
 - utter_affirm_swa
 - utter_deny
 - utter_deny_swa
+- utter_happy_agi
 - utter_mood_great
 - utter_mood_great_swa
+- utter_mood_great_agi
 - utter_bot_challenge
 - utter_bot_challenge_swa
+- utter_bot_challenge_agi
 - utter_ask_mpsr
 - utter_ask_mpsr_swa  
 - utter_security_act
