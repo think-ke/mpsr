@@ -4,7 +4,7 @@ This project is for the MPSR project.
 
 # Setup
 
-### a) New [blank] projects
+## a) New [blank] projects
 
 First, create a virtual environment by either running
 
@@ -30,7 +30,7 @@ now, you can
 
 and see how the chatbot does.
 
-### b) Existing projects
+## b) Existing projects
 
 First, clone the said repo, for this case,
 
@@ -49,6 +49,16 @@ Second, do a rasa installation in your root folder of said project. I am assumin
 Thirdly, begin chatting with your bot by:
 
 ``rasa shell``
+
+## Django Folders
+
+For this, you have to run the command
+``pip install django``
+
+then, to create your project run
+``django-admin startproject mysite`` e.g, for this project:
+
+``django-admin startproject chatui``
 
 Note:
 
