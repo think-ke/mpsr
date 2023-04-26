@@ -8,6 +8,5 @@ COPY . .
 # RUN cd bot-mpsr
 
 EXPOSE 8000
-RUN chmod +rwx ./start_rasa.sh
 
-CMD ["bash", "./start_rasa.sh"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
