@@ -1,5 +1,5 @@
 FROM python:3.9
-WORKDIR /bot-mpsr
+WORKDIR /chatui
 
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
@@ -7,7 +7,7 @@ RUN pip install -r requirements.txt
 COPY . .
 # RUN cd bot-mpsr
 
-EXPOSE 5005
+EXPOSE 8000
 RUN chmod +rwx ./start_rasa.sh
 
 CMD ["bash", "./start_rasa.sh"]
