@@ -2,9 +2,9 @@
 
 This project is for the MPSR project.
 
-# Setup
+## Setup
 
-## a) New [blank] projects
+## a)New [blank] projects
 
 First, create a virtual environment by either running
 
@@ -30,8 +30,10 @@ now, you can
 
 and see how the chatbot does.
 
-## b) Existing projects
+## b)Existing projects
+
 ## Note
+
 If you haven't set up your ssh keys, [follow this](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
 First, clone the said repo, for this case,
@@ -45,7 +47,6 @@ then create a virtual environment by
 or
 
 going to VS Code and opening the command palette(Ctrl+shift+P) then typing ``Python: Create Environment`` to search and then select the command. You may then select Venv or Conda.
-
 
 Second, do a rasa installation in your root folder of said project. I am assuming pip is already installed, if not, follow [this](https://pip.pypa.io/en/stable/installation/).
 

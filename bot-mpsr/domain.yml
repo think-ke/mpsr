@@ -84,6 +84,8 @@ responses:
       iv.   To promote consistency and certainty in secured financing relating to movable assets.
       v.    To enhance the ability of individuals and entities to access credit using movable assets
 
+    image: http://3.129.12.172/static/img/ur.png
+
   utter_ask_mpsr_swa:
   - text: |- 
       Sheria ya Haki za Mali ya Kusafirisha (MPSR), 2017 ni sheria muhimu zaidi kwa ajili ya matumizi ya haki za mali ya 
@@ -103,7 +105,9 @@ responses:
            katika mali zinazohamishika.
       iv.  Kukuza uthabiti na uhakika katika ufadhili uliolindwa unaohusiana na mali zinazohamishika.
       v.   Kuongeza uwezo wa watu binafsi na taasisi kupata mikopo kwa kutumia mali zinazohamishika.
-
+   
+    image: http://3.129.12.172/static/img/ur.png
+    
   utter_security_act:
   - text: |- 
       A security right is a property right in a moveable asset that is created by an agreement to secure payment or 
@@ -130,6 +134,8 @@ responses:
             ii. Intangible assets such as account receivables, choses in action, account savings or deposits, unpaid invoices, 
                 electronic securities, shares and intellectual property among others.
 
+    image: http://3.129.12.172/static/img/uma.png
+
   utter_movable_asset_swa:
   - text: |-  
       Mali zinazohamishika zinakategorizwa katika mbili: 
@@ -138,6 +144,8 @@ responses:
                 vifaa vya elektroniki na vyumba.
             ii. Mali zisizohamishika kama vile malipo ya akaunti, choses in action, akaunti ya kuhifadhi au kuhifadhi, 
                 malipo yasiyofanyika, usalama wa elektroniki, hisa na mali ya kiroho kati ya wengine.
+
+    image: http://3.129.12.172/static/img/uma.png
 
   utter_register:
   - text: |-
@@ -151,6 +159,8 @@ responses:
         iii. Amendment of security rights
         iv.  Cancellation of security right
 
+    image: http://3.129.12.172/static/img/umpsr.png
+
   utter_register_swa:
   - text: |-
       Rejista ya MPSR inahifadhiwa kwenye mfumo wa kuingia moja kwa moja wa huduma za serikali ya e-Citizen na inaongozwa na BRS.
@@ -163,6 +173,7 @@ responses:
         iii. Badilisha haki za usalama
         iv.  Kufuta haki ya usalama
 
+    image: http://3.129.12.172/static/img/umpsr.png
 
 session_config:
   session_expiration_time: 60
