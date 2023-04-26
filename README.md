@@ -88,6 +88,13 @@ and
 
 respectively.
 
+## Deploying
+
+To do this, follow the commands in the 
+``start_rasa.sh`` 
+file, and the Dockerfile too.
+Additionally, this [document](https://help.ovhcloud.com/csm/en-gb-public-cloud-ai-training-train-rasa-chatbot?id=kb_article_view&sysparm_article=KB0057293) might help.
+
 Note:
 
 Always run project(s) in a virtual environment for easy installation of (needed) packages/dependencies.
