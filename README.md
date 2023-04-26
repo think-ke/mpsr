@@ -64,6 +64,30 @@ then, to create your project run
 
 ``django-admin startproject chatui``
 
+For more on Django, follow [this](https://docs.djangoproject.com/en/4.2/intro/tutorial01/).
+
+## For Testing
+
+On the script.js, you change the url from whatever it is to your local host one or what rasa is running on. For my case, I changed it to 
+
+``'http://127.0.0.1:5005/webhooks/rest/webhook``
+
+For the local testing, make sure you run two seperate instances for django, and for rasa. 
+
+``python manage.py runserver``
+
+``rasa run --enable-api --cors "*"``
+
+Make sure you run those commands on the said projects location. For my case, I ran them on:
+
+``(.venv) D:\think\mpsr\bot-mpsr>``
+
+and 
+
+``(.venv) D:\think\mpsr\chatui>`` 
+
+respectively.
+
 Note:
 
 Always run project(s) in a virtual environment for easy installation of (needed) packages/dependencies.
