@@ -2,7 +2,7 @@ version: '3'
 services:
   bot:
     build: 
-      context: ./bot
+      context: ./bot-mpsr
       dockerfile: Dockerfile
     ports:
       - "5005:5005"
