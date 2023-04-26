@@ -1,0 +1,33 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say goodbye anytime the user says goodbye_swa
+  steps:
+  - intent: goodbye_swa
+  - action: utter_goodbye_swa
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+
+- rule: Say 'I am a bot' anytime the user challenges_swa
+  steps:
+  - intent: bot_challenge_swa
+  - action: utter_bot_challenge_swa
+
+- rule: Greeting
+  steps: 
+  - intent: greet
+  - action: utter_greet
+
+- rule: Greeting_swa 
+  steps: 
+  - intent: greet_swa
+  - action: utter_greet_swa
