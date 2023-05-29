@@ -84,7 +84,7 @@ responses:
       iv.   To promote consistency and certainty in secured financing relating to movable assets.
       v.    To enhance the ability of individuals and entities to access credit using movable assets
 
-    image: http://3.129.12.172/static/img/ur.png
+    image: http://3.16.143.19/static/img/ur.png
 
   utter_ask_mpsr_swa:
   - text: |- 
@@ -106,7 +106,7 @@ responses:
       iv.  Kukuza uthabiti na uhakika katika ufadhili uliolindwa unaohusiana na mali zinazohamishika.
       v.   Kuongeza uwezo wa watu binafsi na taasisi kupata mikopo kwa kutumia mali zinazohamishika.
    
-    image: http://3.129.12.172/static/img/ur.png
+    image: http://3.16.143.19/static/img/ur.png
     
   utter_security_act:
   - text: |- 
@@ -134,7 +134,7 @@ responses:
             ii. Intangible assets such as account receivables, choses in action, account savings or deposits, unpaid invoices, 
                 electronic securities, shares and intellectual property among others.
 
-    image: http://3.129.12.172/static/img/uma.png
+    image: http://3.16.143.19/static/img/uma.png
 
   utter_movable_asset_swa:
   - text: |-  
@@ -145,7 +145,7 @@ responses:
             ii. Mali zisizohamishika kama vile malipo ya akaunti, choses in action, akaunti ya kuhifadhi au kuhifadhi, 
                 malipo yasiyofanyika, usalama wa elektroniki, hisa na mali ya kiroho kati ya wengine.
 
-    image: http://3.129.12.172/static/img/uma.png
+    image: http://3.16.143.19/static/img/uma.png
 
   utter_register:
   - text: |-
@@ -159,7 +159,7 @@ responses:
         iii. Amendment of security rights
         iv.  Cancellation of security right
 
-    image: http://3.129.12.172/static/img/umpsr.png
+    image: http://3.16.143.19/static/img/umpsr.png
 
   utter_register_swa:
   - text: |-
@@ -173,7 +173,7 @@ responses:
         iii. Badilisha haki za usalama
         iv.  Kufuta haki ya usalama
 
-    image: http://3.129.12.172/static/img/umpsr.png
+    image: http://3.16.143.19/static/img/umpsr.png
 
 session_config:
   session_expiration_time: 60
