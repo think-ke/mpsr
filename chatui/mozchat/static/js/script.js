@@ -37,7 +37,7 @@ function scrollToBottomOfResults() {
 function send(message) {
 	console.log("User Message:", message)
 	$.ajax({
-		url: 'http://3.129.12.172:5005/webhooks/rest/webhook',
+		url: 'http://3.16.143.19:5005/webhooks/rest/webhook', // use a prof ip address
 		//url: 'http://127.0.0.1:5005/webhooks/rest/webhook', for local testing
 		type: 'POST',
 		data: JSON.stringify({
