@@ -79,10 +79,10 @@ nlu:
 
 - intent: deny_swa
   examples: |
-     - hapana
-     - nimekataa
-     - sitaki
-     - si kweli
+    - hapana
+    - nimekataa
+    - sitaki
+    - si kweli
 
 - intent: mood_great
   examples: |
@@ -145,13 +145,27 @@ nlu:
     - am I talking to a human?
 
 - intent: bot_challenge_swa
+examples: |
+    - wewe ni roboti?
+    - wewe ni binadamu?
+    - ninazungumza na roboti?
+    - ninaongea na roboti?
+    - ninaongea na mwanadamu?
+    - wewe ni mwanadamu?
+
+- intent: start
   examples: |
-     - wewe ni roboti?
-     - wewe ni binadamu?
-     - ninazungumza na roboti?
-     - ninaongea na roboti?
-     - ninaongea na mwanadamu?
-     - wewe ni mwanadamu?
+    - start
+    - st
+    - start over
+    - restart
+
+- intent: start_swa
+  examples: |
+    - anza
+    - anzisha
+    - anza tena
+    - anzisha tena
 
 - intent: ask_mpsr
   examples: |
