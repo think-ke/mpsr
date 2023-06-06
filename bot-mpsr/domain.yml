@@ -23,6 +23,8 @@ intents:
   - movable_asset_swa
   - register
   - register_swa
+  - start
+  - start_swa
 
 
 responses:
@@ -64,6 +66,30 @@ responses:
   utter_bot_challenge_swa:
   - text: "Mimi ni roboti, inayoendeshwa na Rasa."
 
+  utter_start:
+  - text: "Hi, I am the MPSR Bot. I can help you with any questions you may have about the MPSR Act. What would you like to know?"
+    buttons:
+    - title: "What is the MPSR Act?"
+      payload: "/ask_mpsr"
+    - title: "What is a security right?"
+      payload: "/security_right"
+    - title: "What is a movable asset?"
+      payload: "/movable_asset"
+    - title: "How do I register a security right?"
+      payload: "/register"
+  
+  utter_start_swa:
+  - text: "Habari, mimi ni Boti ya MPSR. Ninaweza kukusaidia na maswali yoyote unayoweza kuwa nayo kuhusu Sheria ya MPSR. Ungependa kujua nini?"
+    buttons:
+    - title: "Ni nini Sheria ya MPSR?"
+      payload: "/ask_mpsr_swa"
+    - title: "Ni haki gani ya usalama?"
+      payload: "/security_right_swa"
+    - title: "Ni mali gani ya kusafirisha?"
+      payload: "/movable_asset_swa"
+    - title: "Ninawezaje kujiandikisha haki ya usalama?"
+      payload: "/register_swa"
+
   utter_ask_mpsr:
   - text: |- 
       The Movable Property Security Rights Act (MPSR), 2017 is the most significant statute to impact the use of movable security in Kenya. 
@@ -100,12 +126,12 @@ responses:
 
       i.   Kutoa matumizi ya mali inayohamishika kama dhamana ya mikopo.
       ii.  Kuanzisha Ofisi ya Msajili wa Haki za Usalama ili kuwezesha usajili wa haki za usalama katika zinazohamishika
-           mali.
+          mali.
       iii. Kuanzisha rejista ya dhamana ya kielektroniki ili kuwezesha usajili wa notisi zinazohusiana na haki za usalama
-           katika mali zinazohamishika.
+          katika mali zinazohamishika.
       iv.  Kukuza uthabiti na uhakika katika ufadhili uliolindwa unaohusiana na mali zinazohamishika.
       v.   Kuongeza uwezo wa watu binafsi na taasisi kupata mikopo kwa kutumia mali zinazohamishika.
-   
+
     image: http://3.16.143.19/static/img/ur.png
     
   utter_security_act:
@@ -200,3 +226,6 @@ actions:
 - utter_movable_asset_swa
 - utter_register
 - utter_register_swa
+- utter_start
+- utter_start_swa
+

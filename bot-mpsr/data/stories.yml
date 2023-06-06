@@ -146,3 +146,15 @@ stories:
   - intent: register_swa
   - action: utter_register_swa
   
+  - story: path 6
+    steps:
+    - intent: start
+    - action: utter_start
+    - intent: ask_mpsr
+    - action: utter_ask_mpsr
+
+  - story: path 6_swa
+    steps:
+    - intent: start_swa
+    - action: utter_start_swa
+    - intent: ask_mpsr_swa

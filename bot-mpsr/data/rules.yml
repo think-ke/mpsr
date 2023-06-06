@@ -31,3 +31,13 @@ rules:
   steps: 
   - intent: greet_swa
   - action: utter_greet_swa
+
+- rule: start
+  steps:
+  - intent: start
+  - action: utter_start
+
+- rule: start_swa
+  steps:
+  - intent: start_swa
+  - action: utter_start_swa
