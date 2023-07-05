@@ -4,8 +4,6 @@ This project is for the MPSR project.
 
 ## Setup
 
-## a)New [blank] projects
-
 First, create a virtual environment by either running
 
 ``python -m venv venv``
